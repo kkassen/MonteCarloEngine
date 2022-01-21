@@ -1,4 +1,4 @@
-# Cite:  Annotated Alogrithms in Python by Di Pierro
+# Cite: Annotated Alogrithms in Python by Di Pierro
 # Cite: Dr. John McDonald, DePaul University
 import numpy as np
 
