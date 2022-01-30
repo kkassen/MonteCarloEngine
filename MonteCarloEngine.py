@@ -58,7 +58,6 @@ class MonteCarlo:
         sum1 = 0.0    
         sum2 = 0.0         
         
-
         self.convergence = False
         for k in range(0, simCount, batchSize):   
             x = self.SimulateOneBatch(batchSize)          
@@ -77,5 +76,3 @@ class MonteCarlo:
                     self.convergence = True
                 
         return bootstrap(self.results)
-
-            
